@@ -1,12 +1,13 @@
-🎬 Movie Search App
+**🎬 Movie Search App**
 
 A responsive and interactive web application to search movies and TV shows using the OMDb API. Users can search from the header or click on featured movies to get detailed information like plot, rating, runtime, and more.
 
-🔗 Live Demo
+**🔗 Live Demo**
 
 Example: [Live demo](https://gadeyeshwanth.github.io/MovieSearchApp/)
 
-🚀 Features
+
+**🚀 Features**
 
 
 🔎 Search for movies/shows via the search bar
@@ -19,7 +20,8 @@ Example: [Live demo](https://gadeyeshwanth.github.io/MovieSearchApp/)
 
 🧠 Dynamic data loading using query strings and JavaScript
 
-🛠️ Technologies Used
+
+**🛠️ Technologies Used**
 
 HTML5
 
@@ -30,9 +32,9 @@ JavaScript (Vanilla)
 OMDb API
 
 
-📁 Project Structure
+**📁 Project Structure**
 
-Edit
+
 ├── index.html          # Home page with search bar and movie list
 
 ├── info.html           # Movie details page
