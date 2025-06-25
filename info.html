@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="panel">
+            <div class="heading">
+                <h2>Movies And Shows Search App</h2>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search Movies and Shows">
+                <a href="info.html" onclick="searchMovie()" ><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="info-container">
+        <div class="info-content">
+            <h1 class="title">Naruto</h1>
+            <p><b>IMDB Rating:</b> <a id="rating">8.1</a> &ThickSpace;&ThickSpace; <b>IMDB Votes:</b> <a id="Votes">148,418</a>&ThickSpace;&ThickSpace; <b>Runtime:</b> <a id="runtime">24 min</a>&ThickSpace;&ThickSpace; <b>Year:</b> <a id="year">2002–2007</a></p>
+            <p id="plot">Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.</p>
+            <p><b>Director:</b> <a id="director">N/A</a></p>
+            <p><b>Actors</b> <a id="actors">Junko Takeuchi, Maile Flanagan, Kate Higgins</a></p>
+            <p><b>Genres:</b> <a id="genres">Animation, Action, Adventure</a></p>
+            <p><b>Languages:</b> <a id="languages">Japanese</a></p>
+            <p><b>Awards:</b> <a id="awards">1 win total</a></p>
+        </div>
+        <div class="info-image"></div>
+    </div>
+    <footer>
+        <p>© 2025 Gade Yeshwanth. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
